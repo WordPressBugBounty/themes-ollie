@@ -28,13 +28,13 @@
 <div class="wp-block-group has-secondary-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:500"><!-- wp:post-author {"showBio":false} /-->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
-<p class="has-secondary-color has-text-color">·</p>
+<p class="has-secondary-color has-text-color"><?php esc_html_e( '·', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-date /--></div>
 <!-- /wp:group -->
 
-<!-- wp:post-featured-image {"style":{"color":{"duotone":"unset"},"spacing":{"margin":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} /-->
+<!-- wp:post-featured-image {"style":{"spacing":{"margin":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} /-->
 
 <!-- wp:post-content {"align":"wide","layout":{"type":"constrained"}} /--></div>
 <!-- /wp:group --></div>

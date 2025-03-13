@@ -2,9 +2,9 @@
 /**
  * Title: Footer
  * Slug: ollie/footer-dark
- * Description:
+ * Description: 
  * Categories: footer
- * Keywords:
+ * Keywords: 
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Post Types: wp_template
@@ -108,14 +108,14 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:separator {"align":"wide","className":"is-style-separator-dotted","backgroundColor":"secondary"} -->
-<hr class="wp-block-separator alignwide has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
+<!-- wp:separator {"align":"wide","className":"is-style-separator-thin","backgroundColor":"border-dark"} -->
+<hr class="wp-block-separator alignwide has-text-color has-border-dark-color has-alpha-channel-opacity has-border-dark-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"metadata":{"name":"Footer Subnav"},"align":"wide"} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|main-accent"}}}},"textColor":"main-accent","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group has-main-accent-color has-text-color has-link-color"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo wp_kses_post( _x( '© 2025 <strong>·</strong> Powered by WordPress and <a href="https://olliewp.com">Ollie</a>', 'Copyright text', 'ollie' ) ); ?></p>
+<p class="has-small-font-size"><?php esc_html_e( '© 2025 · Powered by WordPress and&nbsp;', 'ollie' ); ?><a href="https://olliewp.com"><?php esc_html_e( 'Ollie', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -134,3 +134,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --></footer>
 <!-- /wp:group -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->

@@ -1,13 +1,13 @@
 <?php
 /**
- * Title: Text Box Card
- * Slug: ollie/text-box-with-arrow-card
- * Description:
- * Categories: ollie/card, ollie/call-to-action
- * Keywords: box, text, link, arrow, icon, card
- * Viewport Width: 600
- * Block Types:
- * Post Types:
+ * Title: 
+ * Slug: ollie/card-text-box-with-arrow
+ * Description: 
+ * Categories: 
+ * Keywords: 
+ * Viewport Width: 1280
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
@@ -23,8 +23,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"CTA"},"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"secondary"} -->
-<hr class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
+<div class="wp-block-group"><!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-light"} -->
+<hr class="wp-block-separator has-text-color has-border-light-color has-alpha-channel-opacity has-border-light-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"textDecoration":"underline"}},"textColor":"primary"} -->
