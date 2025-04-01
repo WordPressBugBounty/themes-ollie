@@ -4,7 +4,7 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 6.7.1
 Requires PHP: 7.2
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,13 +14,18 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 
 == Changelog ==
 
-= 1.4.2 - 3/17/24 =
+= 1.4.3 - 4/1/25 =
+* Add flexbox helper class to group blocks
+* Remove space gap from blog index
+* RTL improvements for mobile menu
+
+= 1.4.2 - 3/17/25 =
 * Fix social icons on mobile menu
 
-= 1.4.1 - 3/13/24 =
+= 1.4.1 - 3/13/25 =
 * Remove duplicate card pattern
 
-= 1.4.0 - 3/13/24 =
+= 1.4.0 - 3/13/25 =
 * Add small style fixes for WooCommerce
 * Add 7 new typography presets
 * New mobile navigation design with drop downs
@@ -28,21 +33,21 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 * Automate pattern translations
 * Improve pricing table pattern designs
 
-= 1.3.4 - 3/5/24 =
+= 1.3.4 - 3/5/25 =
 * Rename header and footer parts for consistency
 * Update page templates to use patterns so we can translate strings
 * Add translation strings to all patterns
 * Linting improvements on all files
 
-= 1.3.3 - 1/31/24 =
+= 1.3.3 - 1/31/25 =
 * Improve standalone color palettes to match style variations
 * Add standalone Neon color palette from Agency style variation
 * Add Brand Alt color variation for buttons
 
-= 1.3.2 - 1/29/24 =
+= 1.3.2 - 1/29/25 =
 * Improve responsive typography for smaller screens
 
-= 1.3.1 - 1/29/24 =
+= 1.3.1 - 1/29/25 =
 * Remove extra styles in /styles folder
 
 = 1.3.0 - 12/16/24 =
@@ -215,9 +220,7 @@ desktop.webp        - https://stocksnap.io/photo/top-workspace-ZUQSBU4E5B
 guy-laptop.webp     - https://startupstockphotos.com/photos/office-worker-computer/
 
 logo-1.webp, logo-2.webp, logo-3.webp, logo-4.webp, logo-5.webp - created by Mike McAlister and available via CC0.
-All images in /inc/settings/build/images/ created by Mike McAlister and available via CC0. 
 
 Other assets: 
 
 - The Mona Sans font is available via the SIL Open Font License 1.1: https://github.com/github/mona-sans/blob/main/LICENSE
-- Icons available from Iconnoir via the MIT License: https://github.com/iconoir-icons/iconoir/blob/main/LICENSE
